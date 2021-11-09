@@ -10,7 +10,7 @@ namespace EmpWage_Day4
     {
         static void Main(string[] args)
         {
-           // Console.WriteLine("Welcome to Employee wage computation ");
+           
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
 
@@ -34,7 +34,7 @@ namespace EmpWage_Day4
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Employee Wage: " + empWage);
          
-           Console.ReadLine();
+           
         }
     }
 }
