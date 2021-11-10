@@ -10,7 +10,7 @@ namespace EmpWage_Day4
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to the Employee Wage computation program");
+          //Console.WriteLine("Welcome to the Employee Wage computation program");
             //Constants
             int IS_FULL_TIME = 1;
             int IS_PART_TIME = 2;
