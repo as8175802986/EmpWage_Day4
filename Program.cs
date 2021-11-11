@@ -8,14 +8,10 @@ namespace EmpWage_Day4
 {
     class Program
     {
-         //Declaring constant variables
-        public const int IS_FULL_TIME = 1;
-        public const int IS_PART_TIME = 2;
-        public const int EMP_RATE_PER_HOUR = 20;
-        public const int NUM_OF_WORKING_DAYS = 20;
-        public const int MAX_HRS_IN_MONTH = 100;
-        static void Main(string[] args)
+        
+         static void Main(string[] args)
         {
+
             //Console.WriteLine("Welcome to the Employee Wage computation program");            
             //Variables
             int empHrs = 0;
@@ -58,6 +54,10 @@ namespace EmpWage_Day4
             totalEmpWage += empWage;
             Console.WriteLine("Total Employee Wage : " + totalEmpWage);
             
+
+            Console.WriteLine("Welcome to the Employee Wage computation program");
+            Console.ReadLine();
+
         }
     }
 }
