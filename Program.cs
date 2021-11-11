@@ -57,6 +57,7 @@ namespace EmpWage_Day4
             empWage = empHrs * EMP_RATE_PER_HOUR;
             totalEmpWage += empWage;
             Console.WriteLine("Total Employee Wage : " + totalEmpWage);
+            
         }
     }
 }
