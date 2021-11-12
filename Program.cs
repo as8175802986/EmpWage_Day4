@@ -55,8 +55,7 @@ namespace EmpWage_Day4
             Console.WriteLine("Total Employee Wage : " + totalEmpWage);
             
 
-            Console.WriteLine("Welcome to the Employee Wage computation program");
-            Console.ReadLine();
+           
 
         }
     }
