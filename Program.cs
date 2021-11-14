@@ -8,7 +8,7 @@ namespace EmpWage_Day4
 {
     class Program
     {
-        static void Main(string[] args)
+     static void Main(string[] args)
         {
             EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 2, 10, 20);
             EmpWageBuilderObject Ford = new EmpWageBuilderObject("Ford", 5, 15, 30);
