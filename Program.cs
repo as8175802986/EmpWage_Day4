@@ -10,8 +10,12 @@ namespace EmpWage_Day4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee wage computation ");
-            Console.ReadLine();
+            EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 2, 10, 20);
+            EmpWageBuilderObject Ford = new EmpWageBuilderObject("Ford", 5, 15, 30);
+            dMart.ComputeEmpWage();
+            Ford.ComputeEmpWage();
+            Console.WriteLine(dMart.toString());
+            Console.WriteLine(Ford.toString());
         }
     }
 }
